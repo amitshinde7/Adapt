@@ -1,2 +1,2 @@
-# Testcode
-This for terraform and ansible testing purpose
+#Testcode
+This project is for terraform and ansible testing purpose.
