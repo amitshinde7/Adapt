@@ -2,16 +2,16 @@ pipeline {
     agent any 
     stages {
         stage ("init") {
-            step {
+            steps {
                 echo "this is initilization"
         stage ("Build") {
-            step {
+            steps {
                 echo "building the artifact"
         stage ("deploy to stagging") {
-            step {
+            steps {
                 echo "deploying packge into stagging"
         stage ("deply to production"){
-            step {
+            steps {
                 echo "deploying package to production" 
             }
         }        
